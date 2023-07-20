@@ -1,0 +1,19 @@
+{
+  "name": "Marshall_Store",
+  "version": "1.0.0",
+  "description": "NodeJs DynamoDb AWS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "https://github.com/MarshallLiu-Dev/Api_NodeJs_Dynamodb_AWS.git",
+  "author": "Paulo Henrique M de Morais <111690624+MarshallLiu-Dev@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1419.0",
+    "body-parser": "^1.20.2",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
